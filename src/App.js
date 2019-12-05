@@ -4,8 +4,8 @@ import { SearchBox } from './components/search-box/search-box.component'
 import './App.css';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       monsters: [],
